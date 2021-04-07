@@ -1,0 +1,13 @@
+.task {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin: 0 10px;
+  flex: 1 1 100%;
+}
+
+.done .name {
+  text-decoration: line-through;
+}

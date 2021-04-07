@@ -1,0 +1,25 @@
+.main {
+  padding-top: 30px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1 1 100%;
+  padding: 25px 0;
+  overflow: auto;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
